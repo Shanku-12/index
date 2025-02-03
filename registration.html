@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <center>
+      <h1 style="font-size:50px;">REGISTRATION FORM</h1>
+</head>
+<section id="hero" class="hero section dark-background">
+<link rel="stylesheet" href="register.css">
+</body>
+<p style="color:yellow"><center>IF NOT A MEMEBER PLEASE REGISTER YOURSELF</center></p>
+<hr>
+</hr>
+<button>FIRST NAME</button>
+<input type="text">
+<button>SECOND NAME</button>
+<input type="text">
+<br>
+</br>
+<button>GENDER</button>
+<input type="radio" name="gender"
+value="male"> male
+<input type="radio" name="gender"
+value="female">female
+<br>
+</br>
+<button>AGE</button>
+<input type="number">
+<button>DATE OF BIRTH</button>
+<input type="date">
+<br>
+</br>
+<button>PHONE</button>
+<input type="text">
+<br>
+</br>
+<button>EMAIL</button>
+<input type="email" id="username">
+<br>
+</br>
+<button>ADDRESS</button>
+<input type="address">
+<br>
+</br>
+<select name="SOCIAL MEDIA" id="SOCIAL MEDIA">
+  <option value="SOCIAL MEDIA">SOCIAL MEDIA</option>
+  <option value="Instagram">Instagram</option>
+  <option value="Facebook">Facebook</option>
+  <option value="Tiktok">Tiktok</option>
+  <option value="Youtube">Youtube</option>
+  <option value="X">X</option>
+</select>
+<select name="SOCIAL MEDIA" id="SOCIAL MEDIA">
+  <option value="MEDIA">MEDIA</option>
+  <option value="BLOG">BLOG</option>
+  <option value="VLOG">VLOG</option>
+  <option value="MEMES">MEMES</option>
+  <option value="IMAGES">IMAGES</option>
+</select>
+<button>CHANNEL NAME</button>
+<input type="text">
+<br>
+</br>
+<button>Create Password</button>
+<input type="password" id="password">
+<br>
+</br>
+<button>Confirm Password</button>
+<input type="password">
+<li><a href="login.html"><button onclick="AMS()">submit</button>
+<script>
+function AMS()
+{
+let username=document.getElementById("username");
+let password=document.getElementById("password");
+localStorage.setItem("username",username.value);
+localStorage.setItem("password",password.value);
+}
+
+</script>
+</center>
+<hr>
+</hr>
+<hr>
+</hr>
+</html>
